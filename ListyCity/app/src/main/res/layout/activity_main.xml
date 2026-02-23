@@ -22,6 +22,20 @@
         android:id="@+id/listviewCities"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:choiceMode="singleChoice"
         app:layout_constraintTop_toBottomOf="@+id/buttonAddCity" />
+
+<!--    adding the delete button:-->
+
+    <Button
+        android:id="@+id/buttonDeleteCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete City"
+        android:visibility="visible"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="250dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

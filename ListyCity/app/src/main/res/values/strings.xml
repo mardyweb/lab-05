@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Lab5-starter</string>
+    <string name="delete_btn">Delete selected city</string>
 </resources>

@@ -35,7 +35,7 @@ public class CityArrayAdapter extends ArrayAdapter<City> {
 
         movieName.setText(city.getName());
         movieYear.setText(city.getProvince());
-
+        view.setBackgroundResource(R.drawable.list_item_selector);
         return view;
     }
 }
